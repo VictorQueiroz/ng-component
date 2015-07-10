@@ -1,0 +1,17 @@
+{
+  "name": "ng-component",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Your AngularJS components made easily.",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular-mocks": "~1.4.2",
+    "angular": "~1.4.2"
+  }
+}
