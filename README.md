@@ -60,7 +60,7 @@ angular.module('app', ['component'])
 })
 ```
 
-We don't aim to support async requests while creating component, only `$templateCache` templates. So, create your own wrapper, if you do not use `(gulp-ng-templates)[https://npmjs.org/package/gulp-ng-templates]`:
+We don't aim to support async requests while creating component, only `$templateCache` templates. So, create your own wrapper, if you do not use [gulp-ng-templates](https://npmjs.org/package/gulp-ng-templates):
 
 ```js
 .factory('$myModal', function ($component, $http, $templateCache) {
